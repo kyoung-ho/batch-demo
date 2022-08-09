@@ -1,0 +1,15 @@
+spring:
+  batch:
+    job:
+      enabled: false
+    jdbc:
+      initialize-schema: always
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/batch-demo
+    username: icatess
+    password: icatess78
+
+logging:
+  level:
+    root: info
